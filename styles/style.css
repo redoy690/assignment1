@@ -1,0 +1,347 @@
+/* shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* head open */
+.header{
+    display:flex;
+    background: rgba(229, 84, 115, 0.10);
+    max-width: 1920px;
+}
+.head-content{
+    padding-left: 180px;
+    width: 40%;
+}
+.head-title{
+    color: #272727;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top:60px;
+    margin-bottom:10px;
+}
+.head-pic{
+    width: 55%;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.head-para{
+    margin-top:0px;
+}
+.primary-button{
+    border-radius:8px;
+    background-color: #E55473;
+    border: none;
+    padding: 12px 20px;
+    color:#fff;
+}
+
+/* head- close */
+/* feature open */
+
+.feature-section{
+    margin-top:100px;
+    width:100%;
+}
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.featured-para{
+    text-align: center;
+    margin-top:0px;
+}
+.feature-pic-section{
+    display:flex;
+    margin-top:40px;
+    padding-left: 200px;   
+}
+
+
+.feature-pic{
+   margin-right: 20px;
+}
+.feature-pic1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding:50px 40px 0 40px;
+    margin-bottom:10px;
+   
+
+}
+.feature-picture1{
+    height:250px;
+    width:240px;
+}
+
+.feature-pic2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding:50px 40px 0 40px;
+    margin-bottom:10px;
+    
+}
+.feature-picture2{
+    height:250px;
+    width:240px;
+}
+.feature-pic3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding:50px 40px 0 40px;
+    margin-bottom:10px;
+    
+}
+.feature-picture3{
+    height:250px;
+    width: 240px;
+}
+.feature-pic-title{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-left:90px;
+}
+/* feature section close */
+/* hot deal start */
+
+.hot-deal-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.hot-deal-para{
+    margin-left:200px;
+    width: 700px;
+    text-align: center;
+    margin-top: 120px;
+}
+.hot-deal-para h2{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: normal;
+}
+.hot-deal-para p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.hot-deal-pic{
+    width:300px;
+}
+.hot-deal-picture{
+    width:200px;
+    margin-top: 70px;
+
+}
+.hot-deal-off{
+    color:#E55473;
+}
+
+.second-button{
+    border-radius: 8px;
+    background: #E55473;
+    border:none;
+    padding: 12px 20px;
+    color:#fff;
+}
+/* hot-deal-end */
+/* instagram-start */
+.instagram-section{
+    margin-top: 70px;;
+}
+.instagram-section h2{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagram-section p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.instagram-pic-section{
+    display:flex;
+    width: 900px;
+    margin:50px 180px 0 180px;
+}
+.instagram-pic1{ 
+   margin-right: 22px;
+}
+.instagram-picture1{
+    width: 233px;
+}
+
+.instagram-pic2{
+    margin-right: 22px;   
+}
+.instagram-picture2{
+    width: 233px;
+}
+
+.instagram-pic3{
+    margin-right: 22px;  
+}
+.instagram-picture3{
+    width: 233px;
+}
+
+.instagram-pic4{
+    margin-right: 22px;    
+}
+.instagram-picture4{
+    width: 233px;
+}
+/* instagram close */
+.latest-deal-section{
+    width:1000px;
+    height:100%;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.latest-deal{
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.latest-deal h1{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-top: 100px;
+    margin-bottom: 5px;
+}
+
+.latest-deal p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.latest-deal-input input{
+    width: 500px;
+    height: 38px;
+    border-radius: 5px;
+    background: #FFF;
+    border:none;
+    margin:20px 5px 100px 220px;
+}
+/* latest-deal complete */
+/* contact start */
+
+.contact-section{
+    display: flex;
+   
+}
+.contact-header{
+    text-align: center;
+    margin-top: 100px;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.contact-para{
+    margin-left: 180px;
+    padding:5px 0 50px 50px;
+    background-color:#FCEEF1 ;
+    width:360px;
+}
+.contact-para h2{
+    color:#E55473;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.contact-para p{
+    color:#E55473
+}
+.contact-form{
+    background-color: #DAF0F1;
+    width:593px;
+    
+    
+}
+.contact-form h2{
+    text-align: center;
+    color:#fff;
+    font-size: 40px;
+    
+}
+.contact-input input{
+   display: block;
+   margin-bottom: 25px;
+   padding: 18px 35px;
+   color: #d32a2a;
+   border-radius: 5px;
+   width: 50%;
+   border:none;
+   margin-left:130px;
+}
+.contact-input textarea{
+    border:none;
+    display: block;
+    margin-left: 130px;
+}
+.third-button{
+    margin-top:30px;
+    background-color: #E55473;
+    border:none;
+    border-radius: 5px;
+    padding:15px 25px;
+    margin: 30px 130px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* contact end */
+/* footer-start */
+.footer-section{
+    background-color: #111010;
+    height:300px;
+    width:100%;
+    margin-top: 100px;
+}
+.footer-section h1{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 70px;
+}
+.shop{
+    color:#ffffff;
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.footer-para2{
+     color:#fff;
+     text-align: center;
+     font-size: 12px;
+}
+/* footer end */
